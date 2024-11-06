@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    /* margin: 350px;
+     margin-top: 0px; */
+     
+    /* border: 2px solid; */
+     width: 10000; 
+}
+
+/* main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+    width: 600px;
+    margin: 80px;
+} */
+
+.studio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    /* padding: 40px; */
+}
+
+.build {
+    margin: 40px 40px 40px 100px;
+}
+
+.imega-big {
+    width: 1000px;
+}
+
+.second-section {
+    display: flex;
+    margin: 20px;
+    width: 1000px;
+    
+}
+
+
+
+
+
+.Piece {
+    display: flex;
+    padding: 10px;
+    border: 2px solid;
+    width: 1000px;
+}
+
+.piece-1 {
+    width: 250px;
+}
+
+.piece-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     padding: 0px 0px 00px 100px;
+     width: 600px; 
+}
+
+.piece-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 20px;
+    height: 25px;
+    width: 95px;
+    position: relative;
+    margin-left: 80px;
+}
+
+
+
+
+.third-section {
+    display: flex;
+    margin: 30px;
+    width: 1000px;
+    border: 2px solid;
+}
+
+.small-image {
+    height: 150px;
+    width: 100px;
+    margin: 30px;
+}
+
+.image {
+    height: 200px;
+    width: 380px;
+}
+
+.image-p {
+    display: flex;
+    padding: 20px;
+}
+
+.pqmstad {
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.second-image {
+    width: 450px;
+
+}
+
+
+.people {
+    display: flex;
+    width: 1000px;
+    padding: 10px;
+    height: 50px;
+   
+}
+
+.people-2 {
+    padding: 0px 80px 00px 400px;
+   
+}
+
+
+
+
+.celabrt {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 290px;
+    margin: 10px 10px 50px 0px;
+    padding: 5px;
+   
+    
+}
+
+.celebrity {
+    display: flex;
+    width: 1000px;
+}
+
+
+.View-all {
+    display: flex;
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 25px;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.conceptualize {
+    display: flex;
+    width: 1000px;
+
+}
+
+.conceptualize-1 {
+    margin: 30px 260px 30px 30px;
+    
+}
+
+
+.conceptualize-2 {
+    margin: 30px 60px 30px 0px;
+    
+}
+
+
+
+.last-seaion {
+    display: flex;
+    border: 1px solid;
+    width: 1000px;
+    padding: 5px;
+
+    
+}
+
+.last-seaion-2 {
+    margin: 0px 320px 0px 280px;
+   
+}
+
+.last-seaion-3 {
+    margin: 0px 120px 0px 280px;
+    height: 280px;
+   
+}
+
+.last-seaion-image {
+    width: 150px;
+    height: 250px;
+}
+
+.last-seaion-image-2 {
+    display: flex;
+    margin: 5px;
+}
+
+.image-left-1 {
+    display: flex;
+    width: 260px;
+    border: 1px solid;
+}
+
+.image-left-2 {
+    margin: 0px 0px 10px 100px;
+}
+
+.image-left-3 {
+    margin: 0px 0px 10px 90px;
+}
+
+.image-left-4 {
+    margin: 0px 0px 10px 130px;
+}
+
+.image-left-5 {
+    width: 260px;
+    margin: 5px;
+}
+
+.show-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+
+@media (max-width: 40rem) {
+    .project {
+        display: flex;
+        flex-direction: column;
+       
+        
+         margin: 0px;
+         margin-top: 0px;
+         
+         border: 2px solid;
+         width: 1000px; 
+         /* max-width: 60rem; */
+         
+    }
+
+   
+
+    
+    
+}
