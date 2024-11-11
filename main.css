@@ -14,18 +14,10 @@
      margin-top: 0px; */
      
     /* border: 2px solid; */
-     width: 10000; 
+     width: 1000; 
 }
 
-/* main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid;
-    width: 600px;
-    margin: 80px;
-} */
+ 
 
 .studio {
     display: flex;
@@ -195,6 +187,13 @@
     
 }
 
+.last-seaion-00 {
+    display: flex;
+    border: 1px solid;
+    width: 1000px;
+    padding: 5px;
+}
+
 .last-seaion-2 {
     margin: 0px 320px 0px 280px;
    
@@ -252,18 +251,58 @@
 
 
 @media (max-width: 40rem) {
+
+   
     .project {
         display: flex;
         flex-direction: column;
        
         
-         margin: 0px;
+         margin-right: 0px;
          margin-top: 0px;
          
          border: 2px solid;
-         width: 1000px; 
-         /* max-width: 60rem; */
+         width: 19rem;
+          /* width: 320px;  */
+          /* max-width: 600px;  */
          
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid;
+        width: 300px;
+        margin: 0px;
+        margin-left: 0px;
+    } 
+
+  
+    .studio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 0px 0px 0px;
+        /* padding: 40px; */
+    }
+
+    .second-section {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        width: 300px;
+        
+    }
+    
+    
+
+    .Piece {
+        display: flex;
+        padding: 10px;
+        border: 2px solid;
+        width: 300px;
     }
 
     .Piece {
@@ -271,6 +310,164 @@
         padding: 10px;
         border: 2px solid;
         width: 300px;
+    }
+    
+    .piece-1 {
+        width: 250px;
+    }
+    
+    .piece-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         padding: 0px 0px 00px 20px;
+         width: 100px; 
+         
+    }
+    
+    .piece-3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        border-radius: 20px;
+        height: 25px;
+        width: 95px;
+        position: relative;
+        margin-left: 50px;
+    }
+
+    .imega-big {
+        width: 19rem;
+    }
+
+    .third-section {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        width: 300px;
+        border: 2px solid;
+        padding: 20px;
+    }
+
+    .second-image {
+        width: 400px;
+        padding: 20px;
+    
+    }
+
+    .image {
+        height: 200px;
+        width: 270px;
+    }
+
+    .people {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 10px;
+        height: 100px;
+        border: 3px solid;
+       
+    }
+
+    .people-2 {
+        padding: 10px 0px 00px 00px;
+       
+    }
+
+    .celabrt {
+        display: flex;
+        flex-direction: column;
+        width: 70px;
+        height: 290px;
+        margin: 0px 0px 0px 0px;
+        padding: px;
+       
+        
+    }
+
+    .celebrity {
+        display: flex;
+        width: 300px;
+        border: 3px solid;
+    }
+
+    .conceptualize {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    
+    }
+
+    .conceptualize-1 {
+        margin: 30px 60px 30px 0px;
+        
+    }
+    
+    
+    .conceptualize-2 {
+        margin: 30px 60px 30px 0px;
+        
+    }
+
+    .last-seaion {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid;
+        width: 300px;
+        padding: 5px;
+    
+        
+    }
+
+    .last-seaion-00 {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid;
+        width: 300px;
+        padding: 5px;
+    }
+
+    .last-seaion-2 {
+        margin: 0px 20px 0px 0px;
+       
+    }
+
+    .last-seaion-3 {
+        margin: 0px 20px 0px 20px;
+        height: 280px;
+       
+    }
+
+    .last-seaion-image {
+        width: 100px;
+        height: 200px;
+    }
+
+    .image-left-1 {
+        display: flex;
+        width: 170px;
+        border: 1px solid;
+    }
+
+    .image-left-2 {
+        margin: 0px 0px 10px 50px;
+    }
+    
+    .image-left-3 {
+        margin: 0px 0px 10px 35px;
+    }
+    
+    .image-left-4 {
+        margin: 0px 0px 10px 70px;
+    }
+    
+    .image-left-5 {
+        width: 170px;
+        height: 150px;
+        margin: 5px;
+        border: 3px solid;
     }
 
    
